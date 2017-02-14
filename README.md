@@ -1,2 +1,9 @@
-# 4Square
-A board game in which the user must add up multiples of 4 together and get the highest multiple of 4 before the game is over.
+# README.md
+### Board.java
+This file contains methods that creates and changes the 4Square board. This file has methods to save the board to an output file, add a random tile to the board each time a valid move is made, and flip the board in different ways. This file also has the methods that allow the tiles on the board to move in each direction and a method to determine if the game is over. These different methods allow the user to properly play the 4Square game and even expand the board.
+
+### GameManager.java
+This file contains methods that create an object to manage the 4Square game and be able to play the game. This file contains the method to allow the user to properly play the 4Square game and even undo the last move as well as expand the board. This file also contains the method to print the controls of the game to the user.
+
+### Testing My Code
+I effectively tested my code by writing down all of the possible combinations of rows and columns to figure out how to account for each test case. I went through my code line by line with all of the possible combinations of rows and columns to understand exactly what happens on each line of code. When I finished typing my code, I ran the Game4Square.java file to simulate playing the 4Square game. Whenever I came across an error in the game, I immediately wrote down the error on paper. Then, I went through my code line by line again to see which line of code caused the error. Once I figured out which line of code caused the error, I started to think of solutions to fix the error. I used the board that gave the error to go through my new solution (new code) line by line to see if my new solution would fix the error. Then, I typed my new code and ran the Game4Square.java file again to see if my new code actually worked. I repeated testing my code for each direction to ensure that the game worked properly.
